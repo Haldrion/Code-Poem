@@ -12,6 +12,7 @@ from time import sleep
 my = my()
 
 #Start reading poem from bottom up, following code flow
+# CTRL + SHIFT + E to run
 
 def bonus_poem():
     concept = "patience is a virtue"

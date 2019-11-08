@@ -4,7 +4,7 @@ def images():
     accepted = False
     while not accepted:
         try:
-            f = input("Need inspiration... input filename in images folder: ")
+            f = input("Need inspiration... input filename in images folder(see lower right panel): ")
             img = Image.open("images/%s"%f)
             accepted = True
         except:
